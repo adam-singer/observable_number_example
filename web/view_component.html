@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <element name="x-view-component" constructor="ViewComponent" extends="div">
+      <template>
+         <template iterate='number in numbers'>
+          <li>{{number}}</li>
+        </template>
+      </template>
+      <script type="application/dart" src="view_component.dart"></script>
+    </element>
+  </body>
+</html>
