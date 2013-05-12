@@ -19,11 +19,4 @@ class MainView {
   }
 }
 
-MainView _viewModel;
-MainView get viewModel {
-  if (_viewModel == null) {
-    _viewModel = new MainView();
-  }
-
-  return _viewModel;
-}
+final MainView viewModel = new MainView();

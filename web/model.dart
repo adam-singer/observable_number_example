@@ -28,11 +28,4 @@ class Model {
   }
 }
 
-Model _model;
-Model get model {
-  if (_model == null) {
-    _model = new Model();
-  }
-
-  return _model;
-}
+final Model model = new Model();
